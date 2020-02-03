@@ -20,8 +20,7 @@ public class CloudJiraScreenshotsDownloader {
 
 		jiraBrowser.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
 
-		jiraBrowser.get(
-				"Copy and Paste Your Jira Cloud Shared Link Here");
+		jiraBrowser.get("Copy and Paste Your Jira Cloud Shared Link Here");
 
 		jiraBrowser.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
 
